@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Login">
+        <methods>
+          <include name="launchApp"/>
+          <include name="Login_with_valid_credentials"/>
+        </methods>
+      </class> <!-- testcases.Login -->
+      <class name="testcases.ForgetPassword">
+        <methods>
+          <include name="Forget_Password"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- testcases.ForgetPassword -->
+      <class name="testcases.Submit_Customer_Form">
+        <methods>
+          <include name="Login_with_valid_credentials"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- testcases.Submit_Customer_Form -->
+      <class name="testcases.MyProfile">
+        <methods>
+          <include name="launchApp"/>
+          <include name="Edit_MyProfile"/>
+        </methods>
+      </class> <!-- testcases.MyProfile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

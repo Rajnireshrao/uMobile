@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="182639" started-at="2019-08-13T01:02:29Z" finished-at="2019-08-13T01:05:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="182639" started-at="2019-08-13T01:02:29Z" finished-at="2019-08-13T01:05:32Z">
+      <class name="testcases.Login">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testcases.Login@73ad2d6]" name="launchApp" is-config="true" duration-ms="6711" started-at="2019-08-13T01:02:29Z" finished-at="2019-08-13T01:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Login_with_valid_credentials()[pri:0, instance:testcases.Login@73ad2d6]" name="Login_with_valid_credentials" duration-ms="15538" started-at="2019-08-13T01:02:36Z" finished-at="2019-08-13T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+      </class> <!-- testcases.Login -->
+      <class name="testcases.ForgetPassword">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testcases.ForgetPassword@1ce92674]" name="launchApp" is-config="true" duration-ms="4254" started-at="2019-08-13T01:04:16Z" finished-at="2019-08-13T01:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Forget_Password()[pri:0, instance:testcases.ForgetPassword@1ce92674]" name="Forget_Password" duration-ms="16653" started-at="2019-08-13T01:04:20Z" finished-at="2019-08-13T01:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forget_Password -->
+      </class> <!-- testcases.ForgetPassword -->
+      <class name="testcases.MyProfile">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testcases.MyProfile@7085bdee]" name="launchApp" is-config="true" duration-ms="4411" started-at="2019-08-13T01:02:51Z" finished-at="2019-08-13T01:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Edit_MyProfile()[pri:0, instance:testcases.MyProfile@7085bdee]" name="Edit_MyProfile" duration-ms="80503" started-at="2019-08-13T01:02:56Z" finished-at="2019-08-13T01:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_MyProfile -->
+      </class> <!-- testcases.MyProfile -->
+      <class name="testcases.Submit_Customer_Form">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testcases.Submit_Customer_Form@5700d6b1]" name="launchApp" is-config="true" duration-ms="4142" started-at="2019-08-13T01:04:37Z" finished-at="2019-08-13T01:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Login_with_valid_credentials()[pri:0, instance:testcases.Submit_Customer_Form@5700d6b1]" name="Login_with_valid_credentials" duration-ms="50393" started-at="2019-08-13T01:04:41Z" finished-at="2019-08-13T01:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+      </class> <!-- testcases.Submit_Customer_Form -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
