@@ -3,10 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="testcases.ForgetPassword"/>
+      <class name="testcases.ChangePassword"/>
+      <class name="testcases.Submit_Customer_Form"/>
       <class name="testcases.Login"/>
       <class name="testcases.MyProfile"/>
-      <class name="testcases.ForgetPassword"/>
-      <class name="testcases.Submit_Customer_Form"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
